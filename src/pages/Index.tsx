@@ -9,58 +9,51 @@ import { Link } from "react-router-dom";
 import competicaoImg from "@/assets/competicao.jpg";
 import rottweilersImg from "@/assets/rottweilers.jpg";
 import willGoldenImg from "@/assets/will-golden.jpg";
-
 const Index = () => {
-  const services = [
-    {
-      icon: Heart,
-      title: "Adestramento Básico",
-      description: "Comandos essenciais para uma convivência harmoniosa no dia a dia."
-    },
-    {
-      icon: Users,
-      title: "Socialização",
-      description: "Desenvolvimento de habilidades sociais para interação segura com outros cães e pessoas."
-    },
-    {
-      icon: Award,
-      title: "Treinamento para Competições",
-      description: "Preparação profissional para exposições e competições caninas."
-    },
-    {
-      icon: Star,
-      title: "Correção Comportamental",
-      description: "Soluções eficazes para problemas de comportamento e agressividade."
-    }
-  ];
-
-  const stats = [
-    { number: "45+", label: "Anos de Experiência" },
-    { number: "10.000+", label: "Cães Treinados" },
-    { number: "50+", label: "Prêmios Conquistados" },
-    { number: "100%", label: "Dedicação e Amor" }
-  ];
-
-  const testimonials = [
-    {
-      name: "Maria Silva",
-      text: "Will transformou completamente o comportamento do meu Golden. Hoje temos uma convivência perfeita!",
-      dog: "Golden Retriever - Max"
-    },
-    {
-      name: "João Santos",
-      text: "Profissional incrível! Nosso Rottweiler aprendeu comandos básicos em poucas sessões.",
-      dog: "Rottweiler - Thor"
-    },
-    {
-      name: "Ana Costa",
-      text: "A paciência e carinho do Will com os animais é admirável. Recomendo de olhos fechados!",
-      dog: "Border Collie - Luna"
-    }
-  ];
-
-  return (
-    <div className="min-h-screen bg-background">
+  const services = [{
+    icon: Heart,
+    title: "Adestramento Básico",
+    description: "Comandos essenciais para uma convivência harmoniosa no dia a dia."
+  }, {
+    icon: Users,
+    title: "Socialização",
+    description: "Desenvolvimento de habilidades sociais para interação segura com outros cães e pessoas."
+  }, {
+    icon: Award,
+    title: "Treinamento para Competições",
+    description: "Preparação profissional para exposições e competições caninas."
+  }, {
+    icon: Star,
+    title: "Correção Comportamental",
+    description: "Soluções eficazes para problemas de comportamento e agressividade."
+  }];
+  const stats = [{
+    number: "45+",
+    label: "Anos de Experiência"
+  }, {
+    number: "10.000+",
+    label: "Cães Treinados"
+  }, {
+    number: "50+",
+    label: "Prêmios Conquistados"
+  }, {
+    number: "100%",
+    label: "Dedicação e Amor"
+  }];
+  const testimonials = [{
+    name: "Maria Silva",
+    text: "Will transformou completamente o comportamento do meu Golden. Hoje temos uma convivência perfeita!",
+    dog: "Golden Retriever - Max"
+  }, {
+    name: "João Santos",
+    text: "Profissional incrível! Nosso Rottweiler aprendeu comandos básicos em poucas sessões.",
+    dog: "Rottweiler - Thor"
+  }, {
+    name: "Ana Costa",
+    text: "A paciência e carinho do Will com os animais é admirável. Recomendo de olhos fechados!",
+    dog: "Border Collie - Luna"
+  }];
+  return <div className="min-h-screen bg-background">
       <Navigation />
       <Hero />
 
@@ -71,14 +64,11 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Nossos Serviços
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Soluções completas para todas as necessidades do seu cão, com métodos comprovados e muito amor
-            </p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Soluções completas para todas as necessidades do seu cão</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service, index) => (
-              <Card key={index} className="p-6 text-center card-elevated">
+            {services.map((service, index) => <Card key={index} className="p-6 text-center card-elevated">
                 <service.icon className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {service.title}
@@ -86,8 +76,7 @@ const Index = () => {
                 <p className="text-muted-foreground">
                   {service.description}
                 </p>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -105,16 +94,14 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
+            {stats.map((stat, index) => <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
                   {stat.number}
                 </div>
                 <div className="text-muted-foreground font-medium">
                   {stat.label}
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -133,11 +120,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="relative overflow-hidden rounded-lg group">
-              <img 
-                src={competicaoImg} 
-                alt="Will em competição"
-                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+              <img src={competicaoImg} alt="Will em competição" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
                   <h3 className="font-semibold">Competições Nacionais</h3>
@@ -145,11 +128,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative overflow-hidden rounded-lg group">
-              <img 
-                src={rottweilersImg} 
-                alt="Treinamento com Rottweilers"
-                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+              <img src={rottweilersImg} alt="Treinamento com Rottweilers" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
                   <h3 className="font-semibold">Treinamento Especializado</h3>
@@ -157,11 +136,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative overflow-hidden rounded-lg group">
-              <img 
-                src={willGoldenImg} 
-                alt="Will com Golden Retrievers"
-                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+              <img src={willGoldenImg} alt="Will com Golden Retrievers" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
                   <h3 className="font-semibold">Momentos de Carinho</h3>
@@ -194,13 +169,10 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="p-6 card-elevated">
+            {testimonials.map((testimonial, index) => <Card key={index} className="p-6 card-elevated">
                 <div className="mb-4">
                   <div className="flex text-primary mb-2">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-current" />
-                    ))}
+                    {[...Array(5)].map((_, i) => <Star key={i} className="h-4 w-4 fill-current" />)}
                   </div>
                   <p className="text-muted-foreground italic mb-4">
                     "{testimonial.text}"
@@ -210,8 +182,7 @@ const Index = () => {
                   <p className="font-semibold text-foreground">{testimonial.name}</p>
                   <p className="text-sm text-muted-foreground">{testimonial.dog}</p>
                 </div>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -227,21 +198,12 @@ const Index = () => {
             Comece hoje mesmo a jornada para uma convivência perfeita!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              variant="outline" 
-              size="xl"
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-              onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Quero começar o adestramento do meu cão.", "_blank")}
-            >
+            <Button variant="outline" size="xl" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Quero começar o adestramento do meu cão.", "_blank")}>
               <MessageCircle className="mr-2 h-5 w-5" />
               Falar no WhatsApp
             </Button>
             <Link to="/contato">
-              <Button 
-                variant="secondary" 
-                size="xl"
-                className="bg-accent text-accent-foreground hover:bg-accent/90"
-              >
+              <Button variant="secondary" size="xl" className="bg-accent text-accent-foreground hover:bg-accent/90">
                 Formulário de Contato
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -287,8 +249,6 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
