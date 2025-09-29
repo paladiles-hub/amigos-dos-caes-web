@@ -37,9 +37,7 @@ const Hero = () => {
               Fale Conosco no WhatsApp
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button variant="outline" size="xl" className="border-white text-white hover:bg-white hover:text-primary">
-              Conheça Nosso Work
-            </Button>
+            
           </div>
         </div>
       </div>
