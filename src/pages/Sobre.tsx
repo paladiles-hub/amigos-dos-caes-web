@@ -4,42 +4,26 @@ import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import premiosImage from "@/assets/premio-awards.jpg";
 import astroShowImage from "@/assets/astro-dog-show.jpg";
-
 const Sobre = () => {
-  const achievements = [
-    {
-      icon: Calendar,
-      title: "1978",
-      description: "Início da jornada profissional no adestramento canino"
-    },
-    {
-      icon: Trophy,
-      title: "Prêmios Nacionais",
-      description: "Múltiplas premiações em competições brasileiras"
-    },
-    {
-      icon: Star,
-      title: "Reconhecimento Internacional",
-      description: "Prêmios e reconhecimentos em competições internacionais"
-    },
-    {
-      icon: Users,
-      title: "Milhares de Cães",
-      description: "Mais de 10.000 cães treinados ao longo da carreira"
-    }
-  ];
-
-  const specialties = [
-    "Adestramento básico e avançado",
-    "Correção de comportamentos problemáticos",
-    "Treinamento para competições",
-    "Socialização de filhotes",
-    "Obediência para cães de guarda",
-    "Preparação para exposições caninas"
-  ];
-
-  return (
-    <div className="min-h-screen bg-background">
+  const achievements = [{
+    icon: Calendar,
+    title: "1978",
+    description: "Início da jornada profissional no adestramento canino"
+  }, {
+    icon: Trophy,
+    title: "Prêmios Nacionais",
+    description: "Múltiplas premiações em competições brasileiras"
+  }, {
+    icon: Star,
+    title: "Reconhecimento Internacional",
+    description: "Prêmios e reconhecimentos em competições internacionais"
+  }, {
+    icon: Users,
+    title: "Milhares de Cães",
+    description: "Mais de 10.000 cães treinados ao longo da carreira"
+  }];
+  const specialties = ["Adestramento básico e avançado", "Correção de comportamentos problemáticos", "Treinamento para competições", "Socialização de filhotes", "Obediência para cães de guarda", "Preparação para exposições caninas"];
+  return <div className="min-h-screen bg-background">
       <Navigation />
       
       {/* Hero Section */}
@@ -58,9 +42,7 @@ const Sobre = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="mb-8">
-                <h2 className="text-3xl font-bold text-foreground mb-4">
-                  Mais de 45 Anos de Paixão
-                </h2>
+                <h2 className="text-3xl font-bold text-foreground mb-4">Mais de 45 Anos de Paixão</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                   Will iniciou sua jornada no mundo do adestramento canino em 1978, movido por uma 
                   paixão genuína pelos cães e o desejo de fortalecer os laços entre humanos e seus 
@@ -71,34 +53,18 @@ const Sobre = () => {
                   e compreensão, sempre respeitando a natureza individual de cada animal. Sua filosofia 
                   se baseia em construir uma relação de confiança mútua entre o cão e seu tutor.
                 </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Reconhecido nacional e internacionalmente, Will não apenas treina cães, mas também 
-                  educa famílias inteiras sobre como viver em harmonia com seus pets, criando lares 
-                  mais felizes e equilibrados.
-                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">Participante de diversos campeonatos nacionais e internacionais, Will não apenas treina cães, mas também educa famílias inteiras sobre como viver em harmonia com seus pets, criando lares mais felizes e equilibrados.</p>
               </div>
 
-              <Button 
-                variant="whatsapp" 
-                size="lg"
-                onClick={() => window.open("https://wa.me/5519993809491?text=Olá! Gostaria de conhecer mais sobre o trabalho do Will.", "_blank")}
-              >
+              <Button variant="whatsapp" size="lg" onClick={() => window.open("https://wa.me/5519993809491?text=Olá! Gostaria de conhecer mais sobre o trabalho do Will.", "_blank")}>
                 <Heart className="mr-2 h-5 w-5" />
                 Converse com Will
               </Button>
             </div>
 
             <div className="space-y-6">
-              <img 
-                src={premiosImage} 
-                alt="Will recebendo prêmios em competições"
-                className="w-full rounded-lg shadow-lg"
-              />
-              <img 
-                src={astroShowImage} 
-                alt="Will no Astro Dog Show"
-                className="w-full rounded-lg shadow-lg"
-              />
+              <img src={premiosImage} alt="Will recebendo prêmios em competições" className="w-full rounded-lg shadow-lg" />
+              <img src={astroShowImage} alt="Will no Astro Dog Show" className="w-full rounded-lg shadow-lg" />
             </div>
           </div>
         </div>
@@ -117,8 +83,7 @@ const Sobre = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {achievements.map((achievement, index) => (
-              <Card key={index} className="p-6 text-center card-elevated">
+            {achievements.map((achievement, index) => <Card key={index} className="p-6 text-center card-elevated">
                 <achievement.icon className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-foreground mb-2">
                   {achievement.title}
@@ -126,8 +91,7 @@ const Sobre = () => {
                 <p className="text-muted-foreground">
                   {achievement.description}
                 </p>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -146,12 +110,10 @@ const Sobre = () => {
               </p>
               
               <div className="grid gap-4">
-                {specialties.map((specialty, index) => (
-                  <div key={index} className="flex items-center">
+                {specialties.map((specialty, index) => <div key={index} className="flex items-center">
                     <Award className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
                     <span className="text-foreground font-medium">{specialty}</span>
-                  </div>
-                ))}
+                  </div>)}
               </div>
             </div>
 
@@ -197,18 +159,11 @@ const Sobre = () => {
             Entre em contato e descubra como Will pode ajudar você e seu melhor amigo 
             a desenvolverem uma relação ainda mais especial.
           </p>
-          <Button 
-            variant="outline" 
-            size="xl"
-            className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-            onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Gostaria de agendar uma consulta para meu cão.", "_blank")}
-          >
+          <Button variant="outline" size="xl" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Gostaria de agendar uma consulta para meu cão.", "_blank")}>
             Agendar Consulta no WhatsApp
           </Button>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Sobre;
