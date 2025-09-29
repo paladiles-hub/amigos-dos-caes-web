@@ -49,7 +49,7 @@ const Navigation = () => {
             <Button 
               variant="whatsapp" 
               size="sm"
-              onClick={() => window.open("https://wa.me/5519993809491?text=Olá! Gostaria de saber mais sobre os serviços de adestramento.", "_blank")}
+              onClick={() => window.open(`https://wa.me/5519993809491?text=${encodeURIComponent("Ola! Gostaria de saber mais sobre os servicos de adestramento.")}`, "_blank")}
             >
               WhatsApp
             </Button>
@@ -92,7 +92,7 @@ const Navigation = () => {
                   size="sm" 
                   className="w-full"
                   onClick={() => {
-                    window.open("https://wa.me/5519993809491?text=Olá! Gostaria de saber mais sobre os serviços de adestramento.", "_blank");
+                    window.open(`https://wa.me/5519993809491?text=${encodeURIComponent("Ola! Gostaria de saber mais sobre os servicos de adestramento.")}`, "_blank");
                     setIsOpen(false);
                   }}
                 >

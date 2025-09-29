@@ -3,7 +3,7 @@ import { ArrowRight, Award, Users, Heart } from "lucide-react";
 import heroImage from "@/assets/hero-will.jpg";
 const Hero = () => {
   const handleWhatsAppContact = () => {
-    window.open("https://wa.me/5519993809491?text=Olá! Gostaria de saber mais sobre os serviços de adestramento.", "_blank");
+    window.open(`https://wa.me/5519993809491?text=${encodeURIComponent("Ola! Gostaria de saber mais sobre os servicos de adestramento.")}`, "_blank");
   };
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}

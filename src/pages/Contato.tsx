@@ -34,16 +34,16 @@ const Contato = () => {
     e.preventDefault();
     
     // Create WhatsApp message
-    const message = `Olá Will! 🐕
+    const message = `Ola Will! 🐕
 
-*Informações de Contato:*
+*Informacoes de Contato:*
 Nome: ${formData.nome}
 Telefone: ${formData.telefone}
 Email: ${formData.email}
 
-*Informações do Cão:*
-Nome do cão: ${formData.nomeCao}
-Raça: ${formData.raca}
+*Informacoes do Cao:*
+Nome do cao: ${formData.nomeCao}
+Raca: ${formData.raca}
 Idade: ${formData.idade}
 
 *Problema/Objetivo:*
@@ -159,7 +159,7 @@ Gostaria de agendar uma consulta para adestramento. Obrigado!`;
                   <Button 
                     variant="whatsapp" 
                     className="w-full"
-                    onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Gostaria de saber mais sobre os serviços de adestramento.", "_blank")}
+                    onClick={() => window.open(`https://wa.me/5519993809491?text=${encodeURIComponent("Ola Will! Gostaria de saber mais sobre os servicos de adestramento.")}`, "_blank")}
                   >
                     <MessageCircle className="mr-2 h-4 w-4" />
                     Abrir WhatsApp
@@ -319,7 +319,7 @@ Gostaria de agendar uma consulta para adestramento. Obrigado!`;
             variant="outline" 
             size="xl"
             className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-            onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Quero começar o adestramento do meu cão hoje mesmo!", "_blank")}
+            onClick={() => window.open(`https://wa.me/5519993809491?text=${encodeURIComponent("Ola Will! Quero comecar o adestramento do meu cao hoje mesmo!")}`, "_blank")}
           >
             Começar Agora
           </Button>
