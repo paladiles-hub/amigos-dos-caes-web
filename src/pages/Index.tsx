@@ -198,7 +198,7 @@ const Index = () => {
             Comece hoje mesmo a jornada para uma convivência perfeita!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" size="xl" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Quero começar o adestramento do meu cão.", "_blank")}>
+            <Button variant="outline" size="xl" className="border-primary-foreground text-background hover:bg-primary-foreground hover:text-primary" onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Quero começar o adestramento do meu cão.", "_blank")}>
               <MessageCircle className="mr-2 h-5 w-5" />
               Falar no WhatsApp
             </Button>
