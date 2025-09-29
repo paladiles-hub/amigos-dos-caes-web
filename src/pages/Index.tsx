@@ -64,7 +64,7 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Nossos Serviços
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Soluções completas para todas as necessidades do seu cão</p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Soluções completas para todas as suas necessidades e a do seu cão</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
