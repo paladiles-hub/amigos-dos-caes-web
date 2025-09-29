@@ -239,7 +239,7 @@ const Index = () => {
               <h3 className="font-semibold text-foreground mb-4">Contato</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p>WhatsApp: +55 19 99380-9491</p>
-                <p>Região: Campinas - SP</p>
+                <p>Região de Mococa - SP</p>
                 <p>Horário: Segunda à Sábado, 8h às 18h</p>
               </div>
             </div>
