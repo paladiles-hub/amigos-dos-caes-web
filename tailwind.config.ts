@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Custom dog training colors
+        "nature-green": "hsl(var(--nature-green))",
+        "warm-terracotta": "hsl(var(--warm-terracotta))",
+        "soft-cream": "hsl(var(--soft-cream))",
+        "earth-brown": "hsl(var(--earth-brown))",
+        "gentle-sage": "hsl(var(--gentle-sage))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
