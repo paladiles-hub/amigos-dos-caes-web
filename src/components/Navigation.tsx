@@ -12,7 +12,6 @@ const Navigation = () => {
     { href: "/", label: "Início" },
     { href: "/sobre", label: "Sobre Will" },
     { href: "/galeria", label: "Galeria" },
-    { href: "/blog", label: "Blog" },
     { href: "/contato", label: "Contato" },
   ];
 
