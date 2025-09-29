@@ -231,7 +231,7 @@ const Index = () => {
                 <Link to="/" className="block text-muted-foreground hover:text-primary">Início</Link>
                 <Link to="/sobre" className="block text-muted-foreground hover:text-primary">Sobre Will</Link>
                 <Link to="/galeria" className="block text-muted-foreground hover:text-primary">Galeria</Link>
-                
+                <Link to="/blog" className="block text-muted-foreground hover:text-primary">Blog</Link>
                 <Link to="/contato" className="block text-muted-foreground hover:text-primary">Contato</Link>
               </div>
             </div>
