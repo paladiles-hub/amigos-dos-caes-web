@@ -198,7 +198,7 @@ const Index = () => {
               Falar no WhatsApp
             </Button>
             <Link to="/contato">
-              <Button variant="secondary" size="xl" className="text-slate-100 bg-[C2A68C] bg-[#a97f55]">
+              <Button variant="secondary" size="xl" className="text-slate-100 bg-[C2A68C] bg-[#ae8252]">
                 Formulário de Contato
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
