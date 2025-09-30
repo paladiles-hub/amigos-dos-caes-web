@@ -11,6 +11,15 @@ import grupoCachorrosImg from "@/assets/grupo-cachorros.jpg";
 import onibusCachorrosImg from "@/assets/onibus-cachorros.jpg";
 import premiacaoImg from "@/assets/premiacao.jpg";
 import willGoldenImg from "@/assets/will-golden.jpg";
+import borderCollieBusImg from "@/assets/border-collie-bus.jpg";
+import petjindePodioImg from "@/assets/petjinde-podio.jpg";
+import goldenTwoPawsImg from "@/assets/golden-two-paws.jpg";
+import pastorAlemaoOutdoorImg from "@/assets/pastor-alemao-outdoor.jpg";
+import panamericanaTrophyImg from "@/assets/panamericana-trophy.jpg";
+import melhorRacaAwardImg from "@/assets/melhor-raca-award.jpg";
+import dogWhiteTwoPawsImg from "@/assets/dog-white-two-paws.jpg";
+import doisCaesSentadosImg from "@/assets/dois-caes-sentados.jpg";
+import rottweilerProtectionImg from "@/assets/rottweiler-protection.jpg";
 
 const Galeria = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -50,6 +59,51 @@ const Galeria = () => {
       src: willGoldenImg,
       title: "Will e Seus Golden Retrievers",
       description: "Will com seus queridos Golden Retrievers em momento descontraído"
+    },
+    {
+      src: borderCollieBusImg,
+      title: "Border Collie em Frente ao Ônibus",
+      description: "Adestramento de todas as raças - Border Collie treinado demonstrando disciplina"
+    },
+    {
+      src: petjindePodioImg,
+      title: "Pódio Pet Jinde",
+      description: "Will e seus cães no pódio da competição Pet Jinde, celebrando conquistas"
+    },
+    {
+      src: goldenTwoPawsImg,
+      title: "Golden Retriever em Duas Patas",
+      description: "Demonstração de treinamento avançado com Golden Retriever em posição vertical"
+    },
+    {
+      src: pastorAlemaoOutdoorImg,
+      title: "Pastor Alemão ao Ar Livre",
+      description: "Sessão de treinamento com Pastor Alemão em ambiente natural"
+    },
+    {
+      src: panamericanaTrophyImg,
+      title: "Troféu Panamericana 2019",
+      description: "2º Best in Show KC ABC FEV 2019 - Conquista internacional com cão campeão"
+    },
+    {
+      src: melhorRacaAwardImg,
+      title: "Melhor de Raça",
+      description: "Premiação Melhor de Raça com Pastor Alemão campeão em competição oficial"
+    },
+    {
+      src: dogWhiteTwoPawsImg,
+      title: "Cão em Pé com Treinador",
+      description: "Demonstração de comando avançado - cão em posição vertical ao lado do treinador"
+    },
+    {
+      src: doisCaesSentadosImg,
+      title: "Dupla de Cães Sentados",
+      description: "Border Collie e Golden Retriever executando comando de sentar em sincronia"
+    },
+    {
+      src: rottweilerProtectionImg,
+      title: "Treinamento de Guarda com Rottweiler",
+      description: "Exercício especializado de proteção e obediência com Rottweiler"
     }
   ];
 
