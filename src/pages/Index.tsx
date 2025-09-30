@@ -163,9 +163,7 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               O Que Dizem Nossos Clientes
             </h2>
-            <p className="text-lg text-muted-foreground">
-              Depoimentos reais de famílias que transformaram suas vidas com nosso trabalho
-            </p>
+            <p className="text-lg text-muted-foreground">Depoimentos de famílias que transformaram suas vidas com nosso trabalho</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
