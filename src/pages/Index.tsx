@@ -188,7 +188,7 @@ const Index = () => {
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-6 text-amber-200 md:text-4xl">
+          <h2 className="text-3xl font-bold mb-6 text-[#f3dd7d] md:text-4xl">
             Pronto para Transformar a Vida do Seu Cão?
           </h2>
           <p className="text-xl mb-8 opacity-90">Comece hoje mesmo a jornada para uma convivência perfeita!</p>
