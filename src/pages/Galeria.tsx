@@ -128,7 +128,7 @@ const Galeria = () => {
           <Button 
             variant="outline" 
             size="xl"
-            className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+            className="border-primary-foreground text-background hover:bg-primary-foreground hover:text-primary"
             onClick={() => window.open("https://wa.me/5519993809491?text=Olá! Vi a galeria e gostaria de saber mais sobre o adestramento.", "_blank")}
           >
             Fale Conosco no WhatsApp
