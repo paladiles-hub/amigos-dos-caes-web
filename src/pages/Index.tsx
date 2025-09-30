@@ -216,9 +216,7 @@ const Index = () => {
                 <Heart className="h-6 w-6 text-primary" />
                 <span className="text-lg font-bold text-primary">Will, Amigo dos Cães</span>
               </div>
-              <p className="text-muted-foreground">
-                Mais de 45 anos dedicados ao adestramento canino com amor, paciência e resultados comprovados.
-              </p>
+              <p className="text-muted-foreground">Mais de 45 anos dedicados ao adestramento canino com amor, paciência e muita dedicação.</p>
             </div>
             <div>
               <h3 className="font-semibold text-foreground mb-4">Links Rápidos</h3>
