@@ -188,7 +188,7 @@ const Index = () => {
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl font-bold mb-6 text-amber-200 md:text-4xl">
             Pronto para Transformar a Vida do Seu Cão?
           </h2>
           <p className="text-xl mb-8 opacity-90">Comece hoje mesmo a jornada para uma convivência perfeita!</p>
@@ -198,7 +198,7 @@ const Index = () => {
               Falar no WhatsApp
             </Button>
             <Link to="/contato">
-              <Button variant="secondary" size="xl" className="bg-accent text-accent-foreground hover:bg-accent/90">
+              <Button variant="secondary" size="xl" className="text-slate-100 bg-[C2A68C] bg-[#a97f55]">
                 Formulário de Contato
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
