@@ -159,7 +159,7 @@ const Sobre = () => {
             Entre em contato e descubra como Will pode ajudar você e seu melhor amigo 
             a desenvolverem uma relação ainda mais especial.
           </p>
-          <Button variant="outline" size="xl" className="border-primary-foreground text-background hover:bg-primary-foreground hover:text-primary" onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Gostaria de agendar uma consulta para meu cão.", "_blank")}>
+          <Button variant="outline" size="xl" className="border-primary-foreground text-green-600 hover:bg-primary-foreground hover:text-primary" onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Gostaria de agendar uma consulta para meu cão.", "_blank")}>
             Agendar Consulta no WhatsApp
           </Button>
         </div>
