@@ -191,10 +191,7 @@ const Index = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Pronto para Transformar a Vida do Seu Cão?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
-            Não perca mais tempo com comportamentos problemáticos. 
-            Comece hoje mesmo a jornada para uma convivência perfeita!
-          </p>
+          <p className="text-xl mb-8 opacity-90">Comece hoje mesmo a jornada para uma convivência perfeita!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" size="xl" className="border-primary-foreground text-green-600 hover:bg-primary-foreground hover:text-primary" onClick={() => window.open("https://wa.me/5519993809491?text=Olá Will! Quero começar o adestramento do meu cão.", "_blank")}>
               <MessageCircle className="mr-2 h-5 w-5" />
