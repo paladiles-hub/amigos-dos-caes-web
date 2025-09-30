@@ -318,7 +318,7 @@ Gostaria de agendar uma consulta para adestramento. Obrigado!`;
           <Button 
             variant="outline" 
             size="xl"
-            className="border-primary-foreground text-background hover:bg-primary-foreground hover:text-primary"
+            className="border-primary-foreground text-green-600 hover:bg-primary-foreground hover:text-primary"
             onClick={() => window.open(`https://wa.me/5519993809491?text=${encodeURIComponent("Ola Will! Quero comecar o adestramento do meu cao hoje mesmo!")}`, "_blank")}
           >
             Começar Agora
