@@ -42,7 +42,7 @@ const Index = () => {
     text: "Will transformou completamente o comportamento da minha Blue Heeler. Hoje temos uma convivência perfeita!",
   dog: "Bisteca - Blue Heeler"
   }, {
-    name: "João Santos",
+    name: "Giovanna",
     text: "A paciência e carinho do Will com os animais é admirável. Recomendo de olhos fechados!",
     dog: "Golden - Pandora"
   }, {
