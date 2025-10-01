@@ -12,11 +12,11 @@ const Sobre = () => {
   }, {
     icon: Trophy,
     title: "Prêmios Nacionais",
-    description: "Múltiplas premiações em competições brasileiras"
+    description: "Premiações em competições brasileiras"
   }, {
     icon: Star,
     title: "Reconhecimento Internacional",
-    description: "Prêmios e reconhecimentos em competições internacionais"
+    description: "Prêmios e reconhecimentos em competições alemãs"
   }, {
     icon: Users,
   title: "Ampla Experiência",
