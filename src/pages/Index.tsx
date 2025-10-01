@@ -31,7 +31,7 @@ const Index = () => {
     number: "45+",
     label: "Anos de Experiência"
   }, {
-    number: "10.000+",
+    number: "100",
     label: "Cães Treinados"
   }, {
     number: "100%",
