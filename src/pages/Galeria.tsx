@@ -66,11 +66,6 @@ const Galeria = () => {
       description: "Adestramento de todas as raças - Border Collie treinado demonstrando disciplina"
     },
     {
-      src: petjindePodioImg,
-      title: "Pódio Pet Jinde",
-      description: "Will e seus cães no pódio da competição Pet Jinde, celebrando conquistas"
-    },
-    {
       src: goldenTwoPawsImg,
       title: "Golden Retriever em Duas Patas",
       description: "Demonstração de treinamento avançado com Golden Retriever em posição vertical"

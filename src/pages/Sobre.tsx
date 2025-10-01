@@ -19,7 +19,7 @@ const Sobre = () => {
     description: "Prêmios e reconhecimentos em competições internacionais"
   }, {
     icon: Users,
-    title: "Milhares de Cães",
+  title: "Ampla Experiência",
   description: "Mais de 100 cães treinados ao longo da carreira"
   }];
   const specialties = ["Adestramento básico e avançado", "Correção de comportamentos problemáticos", "Treinamento para competições", "Socialização de filhotes", "Obediência para cães de guarda", "Preparação para exposições caninas"];

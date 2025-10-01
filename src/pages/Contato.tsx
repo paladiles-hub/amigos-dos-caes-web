@@ -87,7 +87,7 @@ Gostaria de agendar uma consulta para adestramento. Obrigado!`;
   ];
 
   const services = [
-    "Adestramento básico para filhotes",
+    "Adestramento para filhotes",
     "Correção de comportamentos problemáticos",
     "Treinamento para competições",
     "Socialização canina",
