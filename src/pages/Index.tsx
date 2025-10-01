@@ -89,7 +89,7 @@ const Index = () => {
               Uma Trajetória de Sucesso
             </h2>
             <p className="text-lg text-muted-foreground">
-              Números que refletem nossa dedicação e paixão pelo que fazemos
+              Resultados que refletem nossa dedicação e paixão pelo que fazemos
             </p>
           </div>
 
