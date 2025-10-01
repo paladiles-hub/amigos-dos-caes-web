@@ -34,9 +34,6 @@ const Index = () => {
     number: "10.000+",
     label: "Cães Treinados"
   }, {
-    number: "50+",
-    label: "Prêmios Conquistados"
-  }, {
     number: "100%",
     label: "Dedicação e Amor"
   }];
@@ -93,7 +90,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
                   {stat.number}
