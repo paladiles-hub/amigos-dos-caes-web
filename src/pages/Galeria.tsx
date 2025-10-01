@@ -66,6 +66,11 @@ const Galeria = () => {
       description: "Adestramento de todas as raças - Border Collie treinado demonstrando disciplina"
     },
     {
+      src: petjindePodioImg,
+      title: "Pódio Pet Jinde",
+      description: "Will e seus cães no pódio da competição Pet Jinde, celebrando conquistas"
+    },
+    {
       src: goldenTwoPawsImg,
       title: "Golden Retriever em Duas Patas",
       description: "Demonstração de treinamento avançado com Golden Retriever em posição vertical"
@@ -151,7 +156,7 @@ const Galeria = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-white font-semibold text-lg mb-1">
+                    <h3 className="text-[#dbce83] font-semibold text-lg mb-1">
                       {image.title}
                     </h3>
                     <p className="text-white/80 text-sm">
@@ -219,7 +224,7 @@ const Galeria = () => {
 
             {/* Image info */}
             <div className="absolute bottom-4 left-4 right-4 bg-black/50 backdrop-blur-sm rounded-lg p-4 text-white">
-              <h3 className="font-semibold text-lg mb-1">
+              <h3 className="text-[#dbce83] font-semibold text-lg mb-1">
                 {images[selectedImage].title}
               </h3>
               <p className="text-white/80">
