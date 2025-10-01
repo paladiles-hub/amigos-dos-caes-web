@@ -38,17 +38,17 @@ const Index = () => {
     label: "Dedicação e Amor"
   }];
   const testimonials = [{
-    name: "Maria Silva",
-    text: "Will transformou completamente o comportamento do meu Golden. Hoje temos uma convivência perfeita!",
-    dog: "Golden Retriever - Max"
+    name: "Helena Tonolli",
+    text: "Will transformou completamente o comportamento da minha Blue Heeler. Hoje temos uma convivência perfeita!",
+  dog: "Bisteca - Blue Heeler"
   }, {
     name: "João Santos",
     text: "Profissional incrível! Nosso Rottweiler aprendeu comandos básicos em poucas sessões.",
     dog: "Rottweiler - Thor"
   }, {
-    name: "Ana Costa",
-    text: "A paciência e carinho do Will com os animais é admirável. Recomendo de olhos fechados!",
-    dog: "Border Collie - Luna"
+  name: "Marcos Gubert",
+  text: "A paciência e carinho do Will com os animais é admirável. Recomendo de olhos fechados!",
+  dog: "Meg e Chico - Vira Latas"
   }];
   return <div className="min-h-screen bg-background">
       <Navigation />
@@ -160,7 +160,7 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               O Que Dizem Nossos Clientes
             </h2>
-            <p className="text-lg text-muted-foreground">Depoimentos de famílias que transformaram suas vidas com nosso trabalho</p>
+            <p className="text-lg text-muted-foreground">Depoimentos de famílias que presenciaram os resultados do nosso trabalho</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
