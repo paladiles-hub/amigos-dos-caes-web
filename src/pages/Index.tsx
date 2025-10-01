@@ -39,15 +39,15 @@ const Index = () => {
   }];
   const testimonials = [{
     name: "Helena Tonolli",
-    text: "Will transformou completamente o comportamento da minha Blue Heeler. Hoje temos uma convivência muito melhor!",
+    text: "Will transformou completamente o comportamento da minha Blue Heeler. Hoje temos uma convivência perfeita!",
   dog: "Bisteca - Blue Heeler"
   }, {
-  name: "Giovanna",
-    text: "A paciência e carinho do Will com os animais é admirável. Recomendo de olhos fechados!",
-    dog: "Golden - Pandora"
+    name: "João Santos",
+    text: "Profissional incrível! Nosso Rottweiler aprendeu comandos básicos em poucas sessões.",
+    dog: "Rottweiler - Thor"
   }, {
   name: "Marcos Gubert",
-  text: "Não sei como o Will faz, parece mágica. Dá pra ver que ele nasceu para fazer isso.",
+  text: "A paciência e carinho do Will com os animais é admirável. Recomendo de olhos fechados!",
   dog: "Meg e Chico - Vira Latas"
   }];
   return <div className="min-h-screen bg-background">
